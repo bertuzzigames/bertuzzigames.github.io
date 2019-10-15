@@ -37,6 +37,24 @@
             border: 1px solid #074A9A;
             border-width: 2px;
             }
+
+        .progress-green
+        {
+          background: rgb(9,121,17);
+          background: linear-gradient(90deg, rgba(9,121,17,0.5872724089635855) 35%, rgba(65,159,38,0.39119397759103647) 100%);
+        }    
+
+        .progress-red
+        {
+          background: rgb(121,30,9);
+          background: linear-gradient(90deg, rgba(121,30,9,0.7133228291316527) 35%, rgba(241,6,6,0.39119397759103647) 100%);
+        }    
+
+        .progress-yellow
+        {
+          background: rgb(148,150,10);
+          background: linear-gradient(90deg, rgba(148,150,10,0.7133228291316527) 35%, rgba(234,241,6,0.39119397759103647) 100%);
+        }    
      </style>
 
 </head> 
@@ -46,25 +64,19 @@
    <div class="container">
 
     <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Bertuzzi : Games de 2019</h1>
-    <h3 class="font-weight-light text-center text-lg-left mt-4 mb-0">O que eu joguei esse ano e suas respectivas notas :) (Em construção 🚧) </h3>
+    <h3 class="font-weight-light text-center text-lg-left mt-4 mb-0">O que eu joguei esse ano , suas respectivas notas e o percentual de aproveitamento :) (Em construção 🚧) </h3>
     <hr class="mt-2 mb-5">
   
     <div class="row text-center text-lg-left">
 
     
       <div class="col-lg-3 col-md-4 col-6">
-          <!-- <div id="accordion">
 
-              <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Collapsible Group Item #1
-                          </button>
-                        </h5>
-                      </div> -->
         <h6>Northgard</h6>
-        <a href="https://store.steampowered.com/app/466560/Northgard/" class="d-block mb-4 h-100 ">
+        <div style="width: 100%">
+        
+        <a href="https://store.steampowered.com/app/466560/Northgard/" class="d-block mb-4 h-100" style="position:relative;">
+          <div class="progress-bar progress-green" role="progressbar" style="width: 90%;position: absolute" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-pc" src="assets/images/Northgard.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -84,17 +96,13 @@
                 </button>
               </div>
         </a>
-        <!-- <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-      </div> 
-    </div>-->
+      </div>
+      
   </div>
       <div class="col-lg-3 col-md-4 col-6">
         <h6>Onimusha: Warlords</h6>
-        <a href="https://www.nintendo.com/games/detail/onimusha-warlords-switch/" class="d-block mb-4 h-100 ">
+        <a href="https://www.nintendo.com/games/detail/onimusha-warlords-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-red" role="progressbar" style="width: 20%;position: absolute" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/OnimushaWarlords.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -118,7 +126,8 @@
       
       <div class="col-lg-3 col-md-4 col-6">
           <h6>Starlink: Battle for atlas</h6>
-        <a href="https://www.nintendo.com/games/detail/starlink-battle-for-atlas-switch/" class="d-block mb-4 h-100 ">
+        <a href="https://www.nintendo.com/games/detail/starlink-battle-for-atlas-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-red" role="progressbar" style="width: 30%;position: absolute" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/Starlink.png" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -141,7 +150,8 @@
       </div>
       <div class="col-lg-3 col-md-4 col-6">
         <h6 style="font-size: 14px;" >Monster Hunter Generations Ultimate</h6>
-        <a href="https://www.nintendo.com/games/detail/monster-hunter-generations-ultimate-switch/" class="d-block mb-4 h-100 ">
+        <a href="https://www.nintendo.com/games/detail/monster-hunter-generations-ultimate-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-green" role="progressbar" style="width: 75%;position: absolute" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/MonsterHunterUltimate.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -166,7 +176,8 @@
       <div class="col-lg-3 col-md-4 col-6">
         <h6>Anthem</h6>
         
-      <a href="https://www.ea.com/pt-br/games/anthem" class="d-block mb-4 h-100 ">
+      <a href="https://www.ea.com/pt-br/games/anthem" class="d-block mb-4 h-100 " style="position:relative;">
+        <div class="progress-bar progress-yellow" role="progressbar" style="width: 50%;position: absolute" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
             <img class="img-fluid img-thumbnail  img-thumbnail-ps4" src="assets/images/Anthem.jpg" alt="">
             <div class="review-block-rate">
               <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -190,7 +201,8 @@
 
       <div class="col-lg-3 col-md-4 col-6">
         <h6>Heroes of The Storm</h6>
-        <a href="https://heroesofthestorm.com/pt-br/" class="d-block mb-4 h-100">
+        <a href="https://heroesofthestorm.com/pt-br/" class="d-block mb-4 h-100" style="position:relative;">
+          <div class="progress-bar progress-green" role="progressbar" style="width: 100%;position: absolute" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-pc" src="assets/images/HeroesOfTheStorm.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -213,7 +225,8 @@
       </div>
       <div class="col-lg-3 col-md-4 col-6">
         <h6>Satisfactory</h6>
-        <a href="https://www.epicgames.com/store/en-US/product/satisfactory/home/" class="d-block mb-4 h-100">
+        <a href="https://www.epicgames.com/store/en-US/product/satisfactory/home/" class="d-block mb-4 h-100" style="position:relative;">
+          <div class="progress-bar progress-green" role="progressbar" style="width: 90%;position: absolute" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-pc" src="assets/images/satisfactory.png" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -236,7 +249,8 @@
       </div>
       <div class="col-lg-3 col-md-4 col-6">
           <h6>World of Final Fantasy</h6>
-        <a href="https://www.nintendo.com/games/detail/world-of-final-fantasy-maxima-switch/" class="d-block mb-4 h-100 ">
+        <a href="https://www.nintendo.com/games/detail/world-of-final-fantasy-maxima-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-green" role="progressbar" style="width: 100%;position: absolute" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/WorldofFinalFantasyMaxima.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -259,7 +273,8 @@
       </div>
       <div class="col-lg-3 col-md-4 col-6">
         <h6 style="font-size: 12.28px;" >Yu-Gi-Oh!: Legacy of Duelist Link Evolution</h6>
-        <a href="https://www.nintendo.com/games/detail/yu-gi-oh-legacy-of-the-duelist-link-evolution-switch/" class="d-block mb-4 h-100 ">
+        <a href="https://www.nintendo.com/games/detail/yu-gi-oh-legacy-of-the-duelist-link-evolution-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-green" role="progressbar" style="width: 80%;position: absolute" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/Yugioh.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -282,7 +297,8 @@
       </div>
       <div class="col-lg-3 col-md-4 col-6">
           <h6>Mortal Kombat 11</h6>
-        <a href="https://www.nintendo.com/games/detail/mortal-kombat-11-switch/" class="d-block mb-4 h-100 ">
+        <a href="https://www.nintendo.com/games/detail/mortal-kombat-11-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-green" role="progressbar" style="width: 100%;position: absolute" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/MortalKombat11.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -305,7 +321,8 @@
       </div>
       <div class="col-lg-3 col-md-4 col-6">
           <h6>Dragon's Dogma: Dark Arisen</h6>
-        <a href="https://www.nintendo.com/games/detail/dragons-dogma-dark-arisen-switch/" class="d-block mb-4 h-100 ">
+        <a href="https://www.nintendo.com/games/detail/dragons-dogma-dark-arisen-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-red" role="progressbar" style="width: 30%;position: absolute" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/DragonsDogman.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -329,7 +346,8 @@
 
       <div class="col-lg-3 col-md-4 col-6">
         <h6 style="font-size: 16px;" >Roller Coaster Tycoon</h6>
-         <a href="https://www.nintendo.com/games/detail/rollercoaster-tycoon-adventures-switch/" class="d-block mb-4 h-100 ">
+         <a href="https://www.nintendo.com/games/detail/rollercoaster-tycoon-adventures-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-red" role="progressbar" style="width: 30%;position: absolute" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
                <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/RCA.jpg" alt="">
                <div class="review-block-rate">
                  <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -353,7 +371,8 @@
 
       <div class="col-lg-3 col-md-4 col-6">
        <h6 style="font-size: 16px;" >Dragon Marked for Death</h6>
-        <a href="https://www.nintendo.com/games/detail/dragon-marked-for-death-frontline-fighters-switch/" class="d-block mb-4 h-100 ">
+        <a href="https://www.nintendo.com/games/detail/dragon-marked-for-death-frontline-fighters-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-red" role="progressbar" style="width: 20%;position: absolute" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/DragonMarkedForDeathFrontlineFighters.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -377,7 +396,8 @@
       <div class="col-lg-3 col-md-4 col-6">
           <h6>Dauntless</h6>
           
-        <a href="https://playdauntless.com/" class="d-block mb-4 h-100 ">
+        <a href="https://playdauntless.com/" class="d-block mb-4 h-100 " style="position:relative;">
+          <div class="progress-bar progress-green" role="progressbar" style="width: 80%;position: absolute" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
               <img class="img-fluid img-thumbnail  img-thumbnail-ps4" src="assets/images/Dauntles.jpg" alt="">
               <div class="review-block-rate">
                 <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -402,7 +422,8 @@
       <div class="col-lg-3 col-md-4 col-6">
         <h6>Pokémon Y</h6>
         
-      <a href="https://www.nintendo.com/games/detail/pokemon-y-3ds" class="d-block mb-4 h-100 ">
+      <a href="https://www.nintendo.com/games/detail/pokemon-y-3ds" class="d-block mb-4 h-100 " style="position:relative;">
+        <div class="progress-bar progress-green" role="progressbar" style="width: 100%;position: absolute" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
             <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/PokemonY.jpg" alt="">
             <div class="review-block-rate">
               <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -427,7 +448,8 @@
     <div class="col-lg-3 col-md-4 col-6">
       <h6>Pokémon Alpha Sapphire</h6>
 
-    <a href="https://www.nintendo.com/games/detail/pokemon-alpha-sapphire-3ds/" class="d-block mb-4 h-100 ">
+    <a href="https://www.nintendo.com/games/detail/pokemon-alpha-sapphire-3ds/" class="d-block mb-4 h-100 " style="position:relative;">
+      <div class="progress-bar progress-green" role="progressbar" style="width: 100%;position: absolute" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
       <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/PokemonAlpha.jpg" alt="">
       <div class="review-block-rate">
         <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -452,7 +474,8 @@
 <div class="col-lg-3 col-md-4 col-6">
   <h6>Pokémon Ultra Sun</h6>
 
-<a href="https://www.nintendo.com/games/detail/pokemon-ultra-sun-3ds/" class="d-block mb-4 h-100 ">
+<a href="https://www.nintendo.com/games/detail/pokemon-ultra-sun-3ds/" class="d-block mb-4 h-100 " style="position:relative;">
+  <div class="progress-bar progress-green" role="progressbar" style="width: 100%;position: absolute" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
   <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/PokemonUltraSun.jpg" alt="">
   <div class="review-block-rate">
     <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -476,7 +499,8 @@
 
 <div class="col-lg-3 col-md-4 col-6">
   <h6 style="font-size: 16px;" >Quest Hunter</h6>
-   <a href="https://www.nintendo.com/games/detail/quest-hunter-switch/" class="d-block mb-4 h-100 ">
+   <a href="https://www.nintendo.com/games/detail/quest-hunter-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+    <div class="progress-bar progress-red" role="progressbar" style="width: 30%;position: absolute" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
          <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/QuestHunter.jpg" alt="">
          <div class="review-block-rate">
            <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -500,7 +524,8 @@
 
  <div class="col-lg-3 col-md-4 col-6">
   <h6 style="font-size: 16px;" >Dragon Quest Builders 2</h6>
-   <a href="https://www.nintendo.com/games/detail/dragon-quest-builders-2-switch/" class="d-block mb-4 h-100 ">
+   <a href="https://www.nintendo.com/games/detail/dragon-quest-builders-2-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+    <div class="progress-bar progress-green" role="progressbar" style="width: 100%;position: absolute" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
          <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/DQB2.jpg" alt="">
          <div class="review-block-rate">
            <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -524,7 +549,8 @@
 
  <div class="col-lg-3 col-md-4 col-6">
   <h6 style="font-size: 16px;" >Astral Chain</h6>
-   <a href="https://www.nintendo.com/games/detail/astral-chain-switch/" class="d-block mb-4 h-100 ">
+   <a href="https://www.nintendo.com/games/detail/astral-chain-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+    <div class="progress-bar progress-yellow" role="progressbar" style="width: 40%;position: absolute" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
          <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/AstralChain.jpg" alt="">
          <div class="review-block-rate">
            <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -547,8 +573,9 @@
  </div>
 
  <div class="col-lg-3 col-md-4 col-6">
-  <h6 style="font-size: 14px;" >The Legend of Zelda: Link's Awakening</h6>
-   <a href="https://www.nintendo.com/games/detail/the-legend-of-zelda-links-awakening-switch/" class="d-block mb-4 h-100 ">
+  <h6 style="font-size: 13px;" >The Legend of Zelda: Link's Awakening</h6>
+   <a href="https://www.nintendo.com/games/detail/the-legend-of-zelda-links-awakening-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+    <div class="progress-bar progress-green" role="progressbar" style="width: 100%;position: absolute" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
          <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/Zelda.jpg" alt="">
          <div class="review-block-rate">
            <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -571,8 +598,9 @@
  </div>
 
  <div class="col-lg-3 col-md-4 col-6">
-  <h6 style="font-size: 16px;" >For The King</h6>
-   <a href="https://www.nintendo.com/games/detail/for-the-king-switch//" class="d-block mb-4 h-100 ">
+  <h6 style="font-size: 15px;" >For The King</h6>
+   <a href="https://www.nintendo.com/games/detail/for-the-king-switch//" class="d-block mb-4 h-100 " style="position:relative;">
+    <div class="progress-bar progress-yellow" role="progressbar" style="width: 40%;position: absolute" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
          <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/forTheKing.jpg" alt="">
          <div class="review-block-rate">
            <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -595,8 +623,9 @@
  </div>
 
  <div class="col-lg-3 col-md-4 col-6">
-  <h6>Eternal Magic</h6>
-  <a href="https://playeternalmagic.com/" class="d-block mb-4 h-100">
+  <h6 style="font-size: 15px;">Eternal Magic</h6>
+  <a href="https://playeternalmagic.com/" class="d-block mb-4 h-100" style="position:relative;">
+    <div class="progress-bar progress-red" role="progressbar" style="width: 20%;position: absolute" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
         <img class="img-fluid img-thumbnail  img-thumbnail-pc" src="assets/images/EternalMagic.jpg" alt="">
         <div class="review-block-rate">
           <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
@@ -619,8 +648,9 @@
 </div>
 
 <div class="col-lg-3 col-md-4 col-6">
-  <h6 style="font-size: 11px;" >DRAGON QUEST® XI S: Echoes of an Elusive Age</h6>
-   <a href="https://www.nintendo.com/games/detail/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-switch/" class="d-block mb-4 h-100 ">
+  <h6 style="font-size: 15px;" >DRAGON QUEST® XI S</h6>
+   <a href="https://www.nintendo.com/games/detail/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-switch/" class="d-block mb-4 h-100 " style="position:relative;">
+    <div class="progress-bar progress-red" role="progressbar" style="width: 30%;position: absolute" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
          <img class="img-fluid img-thumbnail  img-thumbnail-switch" src="assets/images/DragonQuestS.jpg" alt="">
          <div class="review-block-rate">
            <button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
